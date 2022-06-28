@@ -97,6 +97,9 @@
   status = 200
 
 
+[[edge_functions]]
+  path = "/site"
+  function = "site"
 
 
 
