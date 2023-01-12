@@ -1,7 +1,5 @@
 import { Context } from "netlify:edge";
 
-throw new Error("you wont catch me")
-
 export default async (request: Request, context: Context) => {
   
   // Just return what was requested without transforming it, 
